@@ -1,0 +1,399 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pt' Physical Memory: 16294 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2021.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Projeto EJUVV/DGAMES_CatASpell2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52853
+Successfully changed project path to: D:/Projeto EJUVV/DGAMES_CatASpell2
+D:/Projeto EJUVV/DGAMES_CatASpell2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 918.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path D:/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projeto EJUVV/DGAMES_CatASpell2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   24.21.13.9907
+Initialize mono
+Mono path[0] = 'D:/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005876 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 128.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1466ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (998ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008487 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projeto EJUVV\DGAMES_CatASpell2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\Projeto EJUVV\DGAMES_CatASpell2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1660ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1255ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (345ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (47.4 KB). Loaded Objects now: 3568.
+Memory consumption went from 107.7 MB to 107.7 MB.
+Total: 9.158600 ms (FindLiveObjects: 0.410800 ms CreateObjectMapping: 0.659800 ms MarkObjects: 7.983700 ms  DeleteObjects: 0.102800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14203.847489 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(86cf53e071a5d0a4c8b82b661632ed47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(86cf53e071a5d0a4c8b82b661632ed47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree fantasy.tree5 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '0dfb4e12c5a07112d6ef4adecff27f7d') in 0.104757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.595015 seconds.
+  path: Assets/Fantasy Forest/FBX/fantasy.tree2.fbx
+  artifactKey: Guid(b53abf2fb2357714a9b8899f39974255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/FBX/fantasy.tree2.fbx using Guid(b53abf2fb2357714a9b8899f39974255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2fc1a46241e1fd61db73c4bfd74367') in 1.222534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Forest/FBX/leaves3.fbx
+  artifactKey: Guid(6bf92920d61c22d4e9eb1d6892ce101c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/FBX/leaves3.fbx using Guid(6bf92920d61c22d4e9eb1d6892ce101c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29594dd904b8390f70c50c6fbfdbe20') in 0.060695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fantasy Forest/FBX/leaves.fbx
+  artifactKey: Guid(9ec89a58902564e42860fd9488cf28bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/FBX/leaves.fbx using Guid(9ec89a58902564e42860fd9488cf28bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a58b820ac3899778053bfb130acd4c9') in 0.103592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantasy Forest/FBX/leaves2.fbx
+  artifactKey: Guid(fc017236dd99e154fb956adb108e2a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/FBX/leaves2.fbx using Guid(fc017236dd99e154fb956adb108e2a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7113f6c799a1d1ef5d255494622e886f') in 0.081086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Forest/FBX/fantasy.tree10.fbx
+  artifactKey: Guid(3018b3983039dee428252c77493b5a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/FBX/fantasy.tree10.fbx using Guid(3018b3983039dee428252c77493b5a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb022a8cf2342b032fa1cca9a801eaf') in 0.059490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Forest/FBX/plane.fbx
+  artifactKey: Guid(9a559b6d77db1e943816b34d1acdbc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/FBX/plane.fbx using Guid(9a559b6d77db1e943816b34d1acdbc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f9b3388454f6e223f96a7f2a2c0625') in 0.068317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fantasy Forest/FBX/mushroom.fbx
+  artifactKey: Guid(d72a50694c89ad348a2fce93217b1786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/FBX/mushroom.fbx using Guid(d72a50694c89ad348a2fce93217b1786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbaa56d5c7383f544679f440232f726') in 0.096813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fantasy Forest/FBX/fantasy.tree4.fbx
+  artifactKey: Guid(08d638fdfb274354bb56c2b226acc7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/FBX/fantasy.tree4.fbx using Guid(08d638fdfb274354bb56c2b226acc7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a809a837053dc6888bd2003109ac09c') in 0.072374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantasy Forest/FBX/fantasy.tree7.fbx
+  artifactKey: Guid(88299bd0f5882d14a8a854d4f84cfd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/FBX/fantasy.tree7.fbx using Guid(88299bd0f5882d14a8a854d4f84cfd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215df1404062fbfc2d94eef42ee20916') in 0.059466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 807.471655 seconds.
+  path: Assets/Fantasy Forest/Textures/flowers5.png
+  artifactKey: Guid(2a434b032d1ca264cb057fbcb56791bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/flowers5.png using Guid(2a434b032d1ca264cb057fbcb56791bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7053cb9ee8d803d4230469a90718ed4b') in 0.091398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fantasy Forest/Textures/ground.texture.jpeg
+  artifactKey: Guid(65bb6f2de3e4d974f803ebbaf713c49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/ground.texture.jpeg using Guid(65bb6f2de3e4d974f803ebbaf713c49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09e5a8a871db0bff076dece46288b9c') in 0.135404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fantasy Forest/Textures/leaves_normal.png
+  artifactKey: Guid(f0a875b6893915149af810fcf3d45b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/leaves_normal.png using Guid(f0a875b6893915149af810fcf3d45b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f1614c7e8b2f199b2e8121d96db2ca') in 0.088860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Fantasy Forest/Textures/flowers8.png
+  artifactKey: Guid(6d517b9e81edb4f4789f64b01e80f021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/flowers8.png using Guid(6d517b9e81edb4f4789f64b01e80f021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17477142f15b0c45f9b13bde8ad74cc4') in 0.113643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fantasy Forest/Textures/mushroomstex1.png
+  artifactKey: Guid(f3eec11e9289bdb42bf91ac3993820d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/mushroomstex1.png using Guid(f3eec11e9289bdb42bf91ac3993820d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdaa8896470f7219da2bd431efbd58f') in 0.097523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Fantasy Forest/Textures/leaves2.png
+  artifactKey: Guid(a8af2d65b91e7ef49ab0828aa9fe39a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/leaves2.png using Guid(a8af2d65b91e7ef49ab0828aa9fe39a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ef08aa3213da4dc5c8a0782f151284') in 0.100317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantasy Forest/Textures/mushroomstex3.png
+  artifactKey: Guid(e809e3e7ec5e7d148a3f2b6a69bf6e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/mushroomstex3.png using Guid(e809e3e7ec5e7d148a3f2b6a69bf6e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0981d3f9048cd72ce6e556e3a7c6630a') in 0.081977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Fantasy Forest/Textures/mushroomnormal2.png
+  artifactKey: Guid(31d34ec49c1fd0646948e117034149eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/mushroomnormal2.png using Guid(31d34ec49c1fd0646948e117034149eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad28eedc235c9539f3880777aa9ac5d9') in 0.060270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Fantasy Forest/Textures/moonray.png
+  artifactKey: Guid(ee328141a180e974f84a006c2f693035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/moonray.png using Guid(ee328141a180e974f84a006c2f693035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9c5dc77b4d73a03a03adb22deff1a5') in 0.127748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy Forest/Textures/sunray2.png
+  artifactKey: Guid(d0430c19aebc00e4ab5b186ddaa09ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/sunray2.png using Guid(d0430c19aebc00e4ab5b186ddaa09ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222e4063dac904c9f6dea74c1899e438') in 0.334886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Forest/Textures/tree1.texture.png
+  artifactKey: Guid(921a803754b936a4c9095073dd439cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/tree1.texture.png using Guid(921a803754b936a4c9095073dd439cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b2495fdd577bdd306e6a43b8720e90') in 0.122455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Fantasy Forest/Textures/flowers7.png
+  artifactKey: Guid(fd3d5c57ba6c7db4abb13488e7fd78aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/flowers7.png using Guid(fd3d5c57ba6c7db4abb13488e7fd78aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f28d2fe7e671bf96842806a3e11e4e') in 0.121962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Forest/Textures/mushroms.png
+  artifactKey: Guid(1293cc3369fbff64284c4b970504ad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/mushroms.png using Guid(1293cc3369fbff64284c4b970504ad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250a9337612e7f4f69155101650db4f5') in 0.132294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.278319 seconds.
+  path: Assets/Fantasy Forest/Textures/flowers3.png
+  artifactKey: Guid(a569e46c0de308d42bf253bf783e3c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/flowers3.png using Guid(a569e46c0de308d42bf253bf783e3c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d5e919ad6edda2b57e248e6717e1ed') in 0.059242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Forest/Textures/flower9.png
+  artifactKey: Guid(4d2b9015d73d08b428e5d7680e510701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Textures/flower9.png using Guid(4d2b9015d73d08b428e5d7680e510701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0671aefd81a77ddf5823f72ac4bf3bd4') in 0.067916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.509579 seconds.
+  path: Assets/Fantasy Forest/Prefabs/leaves3.prefab
+  artifactKey: Guid(9e4553197a2f45d44813d83c418c7436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Prefabs/leaves3.prefab using Guid(9e4553197a2f45d44813d83c418c7436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c78a09f25247d4aef076546e774b38c') in 0.761617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Fantasy Forest/Prefabs/tree6.prefab
+  artifactKey: Guid(a5b8c637a8afb2540998da1ae5c5726a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Prefabs/tree6.prefab using Guid(a5b8c637a8afb2540998da1ae5c5726a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591755e24ae08b9d5d00de8860e45fba') in 0.576886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Fantasy Forest/Prefabs/falling leaves.prefab
+  artifactKey: Guid(db6d19623fc439d41b312197eab1a71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Prefabs/falling leaves.prefab using Guid(db6d19623fc439d41b312197eab1a71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9164c590ab470a2e5e1731789fa3afd0') in 0.458353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantasy Forest/Prefabs/tree7.prefab
+  artifactKey: Guid(23cdad6da1bd7f44d8a47f907f7b1dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Prefabs/tree7.prefab using Guid(23cdad6da1bd7f44d8a47f907f7b1dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11dcd09fb86099b1b1229f8422d407c') in 0.092580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.111156 seconds.
+  path: Assets/Fantasy Forest/Materials/flower9.mat
+  artifactKey: Guid(3f9a5cc6467980743871b9279ebf0351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Materials/flower9.mat using Guid(3f9a5cc6467980743871b9279ebf0351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb89a9614e096eeb5fa06098de893ed') in 0.083971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantasy Forest/Materials/leaves4.mat
+  artifactKey: Guid(70c8293d3d4f9dc4ab394d02b331a71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Materials/leaves4.mat using Guid(70c8293d3d4f9dc4ab394d02b331a71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fca1b865cdc781df427456fa2e9ef65') in 0.033422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Fantasy Forest/Materials/leaves2.mat
+  artifactKey: Guid(2798735b5fbbc084880d9e4f4a997c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Materials/leaves2.mat using Guid(2798735b5fbbc084880d9e4f4a997c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e732b3264ef9ccb86f15645bd59df347') in 0.101446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantasy Forest/Materials/mushroms.mat
+  artifactKey: Guid(8eb1d0c012d886f4d87ec17846d5566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Materials/mushroms.mat using Guid(8eb1d0c012d886f4d87ec17846d5566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dc59e6e7b32306d1059517c68dcf4b') in 0.030255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Fantasy Forest/Materials/flowers8.mat
+  artifactKey: Guid(a0eb24d3ac42fe946928079e7046df21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Materials/flowers8.mat using Guid(a0eb24d3ac42fe946928079e7046df21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0053a56bfb9874fef8f52b1d81cfb754') in 0.108251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Forest/Materials/moonray.mat
+  artifactKey: Guid(57ec9b2899461bf47a896b9695539f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Materials/moonray.mat using Guid(57ec9b2899461bf47a896b9695539f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc79ea173b5b9b6d7a78b559058ea3a') in 0.167991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fantasy Forest/Materials/leaves1.mat
+  artifactKey: Guid(52eb72faeb9eb94449d4bc6ab36e3ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Materials/leaves1.mat using Guid(52eb72faeb9eb94449d4bc6ab36e3ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55eae2130ddf7db14276ac919585f121') in 0.069311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Forest/Materials/falling_leaves.mat
+  artifactKey: Guid(0f4fcd2a4dd44164fa045bae48a49649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Materials/falling_leaves.mat using Guid(0f4fcd2a4dd44164fa045bae48a49649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e0babbeb0c8805af2747019c70724b') in 0.092197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.109068 seconds.
+  path: Assets/Fantasy Forest/Materials/mushroom3.mat
+  artifactKey: Guid(ae4bce6b741b7394ab5a06bb4989f007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Materials/mushroom3.mat using Guid(ae4bce6b741b7394ab5a06bb4989f007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d250b1d83e53081422e230419bd547') in 0.063833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.290946 seconds.
+  path: Assets/Fantasy Forest/Materials/tree1.mat
+  artifactKey: Guid(80bd7949e548c0040afbf7db0c2eb638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Materials/tree1.mat using Guid(80bd7949e548c0040afbf7db0c2eb638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147ff929226c18b6a671a3c0f09c86d7') in 0.037210 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
