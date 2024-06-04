@@ -15,7 +15,7 @@ D:/Projeto EJUVV/DGAMES_CatASpell2/Cat a Spell
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50330
+57590
 Successfully changed project path to: D:/Projeto EJUVV/DGAMES_CatASpell2/Cat a Spell
 D:/Projeto EJUVV/DGAMES_CatASpell2/Cat a Spell
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Projeto EJUVV/DGAMES_CatASpell2/Cat a Spell
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14100] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1607668654 [EditorId] 1607668654 [Version] 1048832 [Id] WindowsEditor(7,ELOISA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1180] Host "[IP] 172.16.6.149 [Port] 0 [Flags] 2 [Guid] 2121291489 [EditorId] 2121291489 [Version] 1048832 [Id] WindowsEditor(7,ELOISA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14100] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1607668654 [EditorId] 1607668654 [Version] 1048832 [Id] WindowsEditor(7,ELOISA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1180] Host "[IP] 172.16.6.149 [Port] 0 [Flags] 2 [Guid] 2121291489 [EditorId] 2121291489 [Version] 1048832 [Id] WindowsEditor(7,ELOISA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 15.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1928.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
 [Subsystems] Discovering subsystems at path D:/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'D:/2022.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007866 seconds.
-- Loaded All Assemblies, in  0.663 seconds
+Registered in 0.155577 seconds.
+- Loaded All Assemblies, in  6.614 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.781 seconds
-Domain Reload Profiling: 1445ms
-	BeginReloadAssembly (209ms)
+- Finished resetting the current domain, in  0.324 seconds
+Domain Reload Profiling: 6938ms
+	BeginReloadAssembly (5032ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (300ms)
-		LoadAssemblies (207ms)
+	RebuildCommonClasses (427ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (205ms)
+	LoadAllAssembliesAndSetupDomain (936ms)
+		LoadAssemblies (5032ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (297ms)
-			TypeCache.Refresh (291ms)
-				TypeCache.ScanAssembly (222ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (782ms)
+		AnalyzeDomain (934ms)
+			TypeCache.Refresh (933ms)
+				TypeCache.ScanAssembly (650ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (325ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (632ms)
+		SetupLoadedEditorAssemblies (257ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (512ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 1445ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.061 seconds
-Refreshing native plugins compatible for Editor in 6.07 ms, found 3 plugins.
+- Loaded All Assemblies, in  6.283 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.160 seconds
-Domain Reload Profiling: 2221ms
-	BeginReloadAssembly (242ms)
+- Finished resetting the current domain, in  1.472 seconds
+Domain Reload Profiling: 7755ms
+	BeginReloadAssembly (175ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (646ms)
-		LoadAssemblies (455ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (6012ms)
+		LoadAssemblies (5409ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (349ms)
-			TypeCache.Refresh (313ms)
-				TypeCache.ScanAssembly (286ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1160ms)
+		AnalyzeDomain (713ms)
+			TypeCache.Refresh (690ms)
+				TypeCache.ScanAssembly (627ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1473ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (901ms)
+		SetupLoadedEditorAssemblies (1250ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (765ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (1118ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (25ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 6.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.8 KB). Loaded Objects now: 3617.
-Memory consumption went from 130.0 MB to 129.9 MB.
-Total: 8.203600 ms (FindLiveObjects: 0.293900 ms CreateObjectMapping: 0.259100 ms MarkObjects: 6.849100 ms  DeleteObjects: 0.800300 ms)
+Unloading 33 unused Assets / (57.8 KB). Loaded Objects now: 3618.
+Memory consumption went from 130.4 MB to 130.3 MB.
+Total: 6.048900 ms (FindLiveObjects: 0.379800 ms CreateObjectMapping: 0.270100 ms MarkObjects: 5.250200 ms  DeleteObjects: 0.147400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,169 +180,201 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2413.501871 seconds.
-  path: Assets/Fantasy Forest/Prefabs/tree8.prefab
-  artifactKey: Guid(8dc4ab5a12ba41c4c97fd35903f3ff27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/tree8.prefab using Guid(8dc4ab5a12ba41c4c97fd35903f3ff27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f497400c43e3867fe75d003b8884c1') in 0.136901 seconds
+  Time since last request: 1841.028886 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(c2324bb6a46ae2846b8fb0aa7634a5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(c2324bb6a46ae2846b8fb0aa7634a5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0402aa336f21869e4af65c3c9365632') in 0.003303 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Fantasy Forest/Prefabs/leaves4.prefab
-  artifactKey: Guid(3176f44bdbbbaeb41a7cf9059a6c05c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/leaves4.prefab using Guid(3176f44bdbbbaeb41a7cf9059a6c05c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46a6183b00147f37d236e7c041ebbd0') in 0.031534 seconds
+  Time since last request: 22.681984 seconds.
+  path: Assets/Prefabs/Árvores
+  artifactKey: Guid(fd72247c3032c704a826ecda0afe85e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores using Guid(fd72247c3032c704a826ecda0afe85e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bc5c5f63f890e6fa1b511bf6d239ce') in 0.000482 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Fantasy Forest/Prefabs/tree3.prefab
-  artifactKey: Guid(46bc2817fad74e541917f02bb839008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/tree3.prefab using Guid(46bc2817fad74e541917f02bb839008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039d29b643c858a4fc1276be8eef80bf') in 0.023617 seconds
+  Time since last request: 201.004067 seconds.
+  path: Assets/Prefabs/Árvores/arvore_pequena.prefab
+  artifactKey: Guid(ce9551c06b9df01439342b2243d1d4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_pequena.prefab using Guid(ce9551c06b9df01439342b2243d1d4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6b2b9c17c347f0577ec6111063598b') in 0.231137 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 41
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Fantasy Forest/Prefabs/tree1.prefab
-  artifactKey: Guid(92bf775964716a54b8ef5b0ff1e70a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/tree1.prefab using Guid(92bf775964716a54b8ef5b0ff1e70a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71161d587d743c9e96192f67b9677f54') in 0.025291 seconds
+  Time since last request: 146.740338 seconds.
+  path: Assets/Prefabs/Árvores/arvore_media.prefab
+  artifactKey: Guid(94fd479fc76e6d94099959a0b953fc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_media.prefab using Guid(94fd479fc76e6d94099959a0b953fc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add17d49b428485aa97be8e10c8eaebf') in 0.042167 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 43
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Fantasy Forest/Prefabs/falling leaves.prefab
-  artifactKey: Guid(db6d19623fc439d41b312197eab1a71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/falling leaves.prefab using Guid(db6d19623fc439d41b312197eab1a71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c08c2f3df29d31b2ab1fbe2b0057c63') in 0.054554 seconds
+  Time since last request: 282.808331 seconds.
+  path: Assets/Prefabs/Árvores/arvore_media2.prefab
+  artifactKey: Guid(b894d6613f4850a42971a2703197806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_media2.prefab using Guid(b894d6613f4850a42971a2703197806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d60a0d1945f3e8ddf39c977add329f9') in 0.033112 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 41
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Fantasy Forest/Prefabs/sunray2.prefab
-  artifactKey: Guid(4ae63f6ae8c2a7a4884dcb68714f2050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/sunray2.prefab using Guid(4ae63f6ae8c2a7a4884dcb68714f2050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2bb17f286f70af29717f11d7587ea6') in 0.053729 seconds
+  Time since last request: 2.420358 seconds.
+  path: Assets/Prefabs/Árvores/arvore_grande.prefab
+  artifactKey: Guid(dadb06062c3bf534aa04e288505116b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_grande.prefab using Guid(dadb06062c3bf534aa04e288505116b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241b35044cfb20061d2e87cfd0119e2f') in 0.050518 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 43
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fantasy Forest/Prefabs/tree6.prefab
-  artifactKey: Guid(a5b8c637a8afb2540998da1ae5c5726a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/tree6.prefab using Guid(a5b8c637a8afb2540998da1ae5c5726a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da23134faac7452cee267c49e88dee1') in 0.038651 seconds
+  Time since last request: 248.086093 seconds.
+  path: Assets/Prefabs/Árvores/arvore_pequena2.prefab
+  artifactKey: Guid(c869dda8e2fdb5e46b077f7409636f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_pequena2.prefab using Guid(c869dda8e2fdb5e46b077f7409636f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536bba2dfcc22224527b772a92ca5480') in 0.025946 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 41
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Fantasy Forest/Prefabs/leaves1.prefab
-  artifactKey: Guid(52983a321bcd4134aa3722616c02fe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/leaves1.prefab using Guid(52983a321bcd4134aa3722616c02fe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ebd3b7055c781629d13ec1f826e904') in 0.019611 seconds
+  Time since last request: 47.893118 seconds.
+  path: Assets/Prefabs/Árvores/arvore_grande2.prefab
+  artifactKey: Guid(ed650533e1513274c9a0db87847c7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_grande2.prefab using Guid(ed650533e1513274c9a0db87847c7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbb10bf481546f633778071ee257cd0') in 0.044680 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 41
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fantasy Forest/Prefabs/tree4.prefab
-  artifactKey: Guid(33830362ee76b134f82570a284a82983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/tree4.prefab using Guid(33830362ee76b134f82570a284a82983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f6a1a43dc6608ccc575f1dab82f2d7') in 0.023242 seconds
+  Time since last request: 93.733206 seconds.
+  path: Assets/Prefabs/Árvores/arvore_media3.prefab
+  artifactKey: Guid(78100ace6d08c3c4b9d51a79f5803378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_media3.prefab using Guid(78100ace6d08c3c4b9d51a79f5803378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc37cac8b8007afa10a28fc752d030c3') in 0.043648 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 41
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Fantasy Forest/Prefabs/tree2.prefab
-  artifactKey: Guid(5e7f9f66526fe8e498a49dbf4377157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/tree2.prefab using Guid(5e7f9f66526fe8e498a49dbf4377157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d014e2b0ca1c78dcc1912333d31ab0') in 0.021025 seconds
+  Time since last request: 4508.997651 seconds.
+  path: Assets/Prefabs/Árvores/arvore_grande.prefab
+  artifactKey: Guid(dadb06062c3bf534aa04e288505116b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_grande.prefab using Guid(dadb06062c3bf534aa04e288505116b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2af13fbc2eefd26bb1fa967c4db693a') in 0.398450 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 44
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Fantasy Forest/Prefabs/leaves3.prefab
-  artifactKey: Guid(9e4553197a2f45d44813d83c418c7436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/leaves3.prefab using Guid(9e4553197a2f45d44813d83c418c7436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5769f22cb4fdbf53bb1497352a7caa2') in 0.019682 seconds
+  Time since last request: 4.840891 seconds.
+  path: Assets/Prefabs/Árvores/arvore_grande2.prefab
+  artifactKey: Guid(ed650533e1513274c9a0db87847c7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_grande2.prefab using Guid(ed650533e1513274c9a0db87847c7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28b12d5ed718bc9c55a3f375414b646') in 0.558521 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Fantasy Forest/Prefabs/leaves2.prefab
-  artifactKey: Guid(03288e8136328614ca2bb2239028aa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/leaves2.prefab using Guid(03288e8136328614ca2bb2239028aa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41bd35db1448a8b821eef3b11ad8eea') in 0.023142 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Fantasy Forest/Prefabs/moonray.prefab
-  artifactKey: Guid(4f62f65d31f3fa14a9738d08d58564e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/moonray.prefab using Guid(4f62f65d31f3fa14a9738d08d58564e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58756b2037537cb19d5f99c2fda9315b') in 0.026596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Fantasy Forest/Prefabs/mushroom.prefab
-  artifactKey: Guid(cab80c0f92109d54b9b76b0239c3f510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/mushroom.prefab using Guid(cab80c0f92109d54b9b76b0239c3f510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34c16a455a73cc73d645cd98041b307') in 0.039185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Fantasy Forest/Prefabs/tree10.prefab
-  artifactKey: Guid(4f8234c6a77a7c048b048b40641e5a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/tree10.prefab using Guid(4f8234c6a77a7c048b048b40641e5a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd07c9ff6b59edcb5d4f02e220194b4') in 0.021902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Fantasy Forest/Prefabs/flower2.prefab
-  artifactKey: Guid(13636321141941d42aa493fe4345e57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/flower2.prefab using Guid(13636321141941d42aa493fe4345e57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8ef5b21b6ae14f40177c3f76913084') in 0.019175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fantasy Forest/Prefabs/sunray1.prefab
-  artifactKey: Guid(e4571183259a2da468f93a70060cd62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/sunray1.prefab using Guid(e4571183259a2da468f93a70060cd62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924b6411d01b2550fcd6ec13c35ee909') in 0.021380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Fantasy Forest/Prefabs/tree5.prefab
-  artifactKey: Guid(f77d48d9d0debe740b4199919f4cb7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/tree5.prefab using Guid(f77d48d9d0debe740b4199919f4cb7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b547919786763aee5192b5fc2d6632a') in 0.022659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Fantasy Forest/Prefabs/tree9.prefab
-  artifactKey: Guid(1a7bba7f34c99304aa11660917203f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/tree9.prefab using Guid(1a7bba7f34c99304aa11660917203f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7787f0ac14e558d2607d4ccaf376303e') in 0.019894 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Fantasy Forest/Prefabs/tree7.prefab
-  artifactKey: Guid(23cdad6da1bd7f44d8a47f907f7b1dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/tree7.prefab using Guid(23cdad6da1bd7f44d8a47f907f7b1dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa575d74e6f24a0a95aa418c46bc4509') in 0.020533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 42
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Fantasy Forest/Prefabs/flower1.prefab
-  artifactKey: Guid(4588e434cfffdd44bb8a08ec9789210e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest/Prefabs/flower1.prefab using Guid(4588e434cfffdd44bb8a08ec9789210e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63e3680d982a8901e705d716dedb788') in 0.022079 seconds
+  path: Assets/Prefabs/Árvores/arvore_media.prefab
+  artifactKey: Guid(94fd479fc76e6d94099959a0b953fc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_media.prefab using Guid(94fd479fc76e6d94099959a0b953fc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ef99dd9a201cc50c34853f15a18ef5') in 0.132182 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Árvores/arvore_media2.prefab
+  artifactKey: Guid(b894d6613f4850a42971a2703197806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_media2.prefab using Guid(b894d6613f4850a42971a2703197806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679e2378fb93ee54e48a5b4761fc5653') in 0.021546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 1.524233 seconds.
+  path: Assets/Prefabs/Árvores/arvore_media3 1.prefab
+  artifactKey: Guid(5c3b006b5d8ae52469a1c80ee07bfdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_media3 1.prefab using Guid(5c3b006b5d8ae52469a1c80ee07bfdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7ba901bfc69c8b99649b4e593954c4') in 0.424048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Árvores/arvore_pequena 1.prefab
+  artifactKey: Guid(508f0b4eecfd5014cb093f8549d2e483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_pequena 1.prefab using Guid(508f0b4eecfd5014cb093f8549d2e483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad78f95dde52467e4af795252ab3163') in 0.028352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 25.601715 seconds.
+  path: Assets/Prefabs/Árvores/arvore_media3.prefab
+  artifactKey: Guid(78100ace6d08c3c4b9d51a79f5803378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_media3.prefab using Guid(78100ace6d08c3c4b9d51a79f5803378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c661ecb0b2bde47716249354f351e0b') in 0.023177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 17.719696 seconds.
+  path: Assets/Prefabs/Árvores/arvore_pequena.prefab
+  artifactKey: Guid(ce9551c06b9df01439342b2243d1d4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_pequena.prefab using Guid(ce9551c06b9df01439342b2243d1d4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca619ccb91358f68d568ade0ef40466f') in 0.044302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 2.612811 seconds.
+  path: Assets/Prefabs/Árvores/arvore_pequena2.prefab
+  artifactKey: Guid(c869dda8e2fdb5e46b077f7409636f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_pequena2.prefab using Guid(c869dda8e2fdb5e46b077f7409636f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c33b14c9b6167e17e20040b01a064f1') in 0.029671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 115.227444 seconds.
+  path: Assets/Prefabs/Árvores/New Prefab.prefab
+  artifactKey: Guid(34d41c2e781a4e24b93581355bfd8556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/New Prefab.prefab using Guid(34d41c2e781a4e24b93581355bfd8556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77808f25ccf232740d54cecb52e67937') in 0.002641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 8.413327 seconds.
+  path: Assets/Prefabs/Árvores/New Prefab.prefab
+  artifactKey: Guid(34d41c2e781a4e24b93581355bfd8556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/New Prefab.prefab using Guid(34d41c2e781a4e24b93581355bfd8556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae912c68f7b9dcca33f436dc1a98af3') in 0.002523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 100.572783 seconds.
+  path: Assets/Prefabs/Árvores/arvore_pequena2.prefab
+  artifactKey: Guid(c869dda8e2fdb5e46b077f7409636f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_pequena2.prefab using Guid(c869dda8e2fdb5e46b077f7409636f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4230bad96cac58f278a2e6275e5fa7') in 0.030143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 397.024467 seconds.
+  path: Assets/Fantasy Forest/Materials
+  artifactKey: Guid(d2069cdd652a8a3469253eae4e8757fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Forest/Materials using Guid(d2069cdd652a8a3469253eae4e8757fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10293bb95cb1e319cf4acf1d92379cbf') in 0.031644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 193.170211 seconds.
+  path: Assets/Prefabs/Árvores/arvore_media2.prefab
+  artifactKey: Guid(b894d6613f4850a42971a2703197806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_media2.prefab using Guid(b894d6613f4850a42971a2703197806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cf8383991f6c8b1e7126130fed2095') in 0.051811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 3.980599 seconds.
+  path: Assets/Prefabs/Árvores/arvore_media2.prefab
+  artifactKey: Guid(b894d6613f4850a42971a2703197806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_media2.prefab using Guid(b894d6613f4850a42971a2703197806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276dadeaa4649154059ddd85572aa2d2') in 0.024188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 1.760862 seconds.
+  path: Assets/Prefabs/Árvores/arvore_media2.prefab
+  artifactKey: Guid(b894d6613f4850a42971a2703197806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Árvores/arvore_media2.prefab using Guid(b894d6613f4850a42971a2703197806c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39677e5ac3a66802e94f7cd02ae38670') in 0.018361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
