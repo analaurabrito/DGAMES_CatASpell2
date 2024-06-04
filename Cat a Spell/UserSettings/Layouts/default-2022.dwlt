@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Unity Version Control
+  m_Title: Scene
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 182
+  controlID: 115
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -424,7 +424,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 45}
     m_SelectedIDs: f45c0000
     m_LastClickedID: 23796
-    m_ExpandedIDs: 00000000c05c0000f05c000000ca9a3b
+    m_ExpandedIDs: 00000000c25c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -452,7 +452,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c05c0000
+    m_ExpandedIDs: 00000000c25c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -594,7 +594,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 94f8ffff32fbffff
+      m_ExpandedIDs: 32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -961,9 +961,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -287.2872, y: -15.440362, z: -0.15790449}
+    m_Target: {x: -279.1213, y: 7.3463984, z: -38.40811}
     speed: 2
-    m_Value: {x: -287.2872, y: -15.440362, z: -0.15790449}
+    m_Value: {x: -279.1213, y: 7.3463984, z: -38.40811}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1011,11 +1011,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.07829768, y: 0.67297447, z: -0.07191143, w: 0.73200953}
     speed: 2
-    m_Value: {x: 0.074898265, y: 0.6743775, z: -0.068993464, w: 0.7313311}
+    m_Value: {x: 0.07829768, y: 0.67297447, z: -0.07191143, w: 0.7320095}
   m_Size:
-    m_Target: 73.24644
+    m_Target: 96.45952
     speed: 2
-    m_Value: 70.092285
+    m_Value: 96.45952
   m_Ortho:
     m_Target: 0
     speed: 2
