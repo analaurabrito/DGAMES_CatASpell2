@@ -23,7 +23,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Para a execução do projeto na sua máquina, verifique os seguintes requisitos:
 
-- Instalação da versão 2021.3 do Unity.
+- Instalação da versão 2022.3 do Unity.
 - Leitura do GDD do projeto para instruções de jogo.
 
 ## 🤝 Colaboradores
@@ -61,7 +61,6 @@ Esse projeto vem sendo realizado pelas seguintes alunas da turma CC4M:
 </br>
 
 ### Notas temporárias
-
 - para dar push em arquivos muito grandes:  
   Entrar no git bash, localizar o arquivo e usar o seguinte comando:  
   `git lfs track nomearquivo` ou `git lfs track nomearquivo1 nomearquivo2 nomearquivo3`
