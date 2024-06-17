@@ -6,18 +6,16 @@ public class PlayerController : MonoBehaviour
 {
     private CharacterController charController;
     Animator animator;
-    // private UnityEngine.AI.NavMeshAgent navMeshAgent;
 
     bool isMovementPressed;
-    float rotationFactorPerFrame = 1.0f;
-    public float Speed = 5f;
-
+    float rotationFactorPerFrame = 120f;
+    public float moveSpeed = 15f;
     // Start is called before the first frame update
     void Start()
     {
         charController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
-        // navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+
     }
 
 
@@ -33,13 +31,13 @@ public class PlayerController : MonoBehaviour
             {
 
                 animator.SetBool("isRunning", true);
-                
+
             }
             else if ((Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl)) && isRunning)
             {
 
                 animator.SetBool("isRunning", false);
-                
+
             }
         }
         else if ((Input.GetAxis("Vertical") == 0 || Input.GetAxis("Horizontal") == 0) && isWalking)
@@ -50,20 +48,29 @@ public class PlayerController : MonoBehaviour
 
     void handleRotation()
     {
-        Vector3 positionToLookAt;
-
+        /* Vector3 positionToLookAt;
+        
 
         positionToLookAt.x = Input.GetAxis("Vertical");
         positionToLookAt.y = 0.0f;
         positionToLookAt.z = Input.GetAxis("Horizontal");
 
-        Quaternion currentRotation = transform.rotation;
+       Quaternion currentRotation = transform.rotation;
 
-        if (Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0)
+        if(Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0)
         {
             Quaternion targetRotation = Quaternion.LookRotation(positionToLookAt);
             transform.rotation = Quaternion.Slerp(currentRotation, targetRotation, rotationFactorPerFrame * Time.deltaTime);
+        } */
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
+            transform.Rotate(-Vector3.up, rotationFactorPerFrame * Time.deltaTime, Space.Self);
         }
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(Vector3.up, rotationFactorPerFrame * Time.deltaTime, Space.Self);
+        }
+
 
     }
 
@@ -72,8 +79,9 @@ public class PlayerController : MonoBehaviour
     {
         handleAnimation();
         handleRotation();
-        Vector3 move = new Vector3(Input.GetAxis("Vertical"), 0, Input.GetAxis("Horizontal"));
-        // navMeshAgent.destination = move;
+        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
+        move = transform.TransformDirection(move);
         if (charController.isGrounded)
         {
             float groundedGravity = -.05f;
@@ -84,6 +92,6 @@ public class PlayerController : MonoBehaviour
             float gravity = -9.8f;
             move.y += gravity;
         }
-        charController.Move(move * Time.deltaTime * Speed);
+        charController.Move(move * Time.deltaTime * moveSpeed);
     }
 }
