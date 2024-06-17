@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DropBonePlatform : MonoBehaviour
 {
+    public PlayerController player;
     public GameObject LevelCompleteText;
     public GameObject NextLevelButton;
     public GameObject RestartLevelButton;
@@ -43,6 +44,7 @@ public class DropBonePlatform : MonoBehaviour
                 NextLevelButton.SetActive(true);
                 RestartLevelButton.SetActive(true);
                 RestartGameButton.SetActive(true);
+                player.moveSpeed = 0f;
             }
             }
         
