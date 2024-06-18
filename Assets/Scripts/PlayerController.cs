@@ -8,9 +8,8 @@ public class PlayerController : MonoBehaviour
     Animator animator;
 
     bool isMovementPressed;
-    float rotationFactorPerFrame = 1.0f;
-    public float Speed = 5f;
-
+    float rotationFactorPerFrame = 120f;
+    public float moveSpeed = 15f;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,20 +35,29 @@ public class PlayerController : MonoBehaviour
 
     void handleRotation()
     {
-        Vector3 positionToLookAt;
-
+        /* Vector3 positionToLookAt;
+        
 
         positionToLookAt.x = Input.GetAxis("Vertical");
         positionToLookAt.y = 0.0f;
         positionToLookAt.z = Input.GetAxis("Horizontal");
 
-        Quaternion currentRotation = transform.rotation;
+       Quaternion currentRotation = transform.rotation;
 
-        if (Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0)
+        if(Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0)
         {
             Quaternion targetRotation = Quaternion.LookRotation(positionToLookAt);
             transform.rotation = Quaternion.Slerp(currentRotation, targetRotation, rotationFactorPerFrame * Time.deltaTime);
+        } */
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
+            transform.Rotate(-Vector3.up, rotationFactorPerFrame * Time.deltaTime, Space.Self);
         }
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(Vector3.up, rotationFactorPerFrame * Time.deltaTime, Space.Self);
+        }
+
 
     }
 
@@ -58,7 +66,9 @@ public class PlayerController : MonoBehaviour
     {
         handleAnimation();
         handleRotation();
-        Vector3 move = new Vector3(Input.GetAxis("Vertical"), 0, Input.GetAxis("Horizontal"));
+        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
+        move = transform.TransformDirection(move);
         if (charController.isGrounded)
         {
             float groundedGravity = -.05f;
@@ -69,43 +79,6 @@ public class PlayerController : MonoBehaviour
             float gravity = -9.8f;
             move.y += gravity;
         }
-        charController.Move(move * Time.deltaTime * Speed);
+        charController.Move(move * Time.deltaTime * moveSpeed);
     }
-
-    /*public float speed = 20;
-    public float turnSpeed = 30;
-    public float horizontalInput;
-    public float forwardInput;
-    public float xRange = 10;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // Input de movimentação
-        forwardInput = Input.GetAxis("Vertical");
-        horizontalInput = Input.GetAxis("Horizontal");
-
-        // Para o gatinho andar pra frente
-        transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
-        // Para o gatinho se movimentar (de forma rotacionada) para direita/esquerda
-        transform.Translate(-Vector3.right * Time.deltaTime * horizontalInput);
-        transform.Rotate(Vector3.up, turnSpeed * horizontalInput * turnSpeed* Time.deltaTime);
-
-       // Para manter o jogador nos limites do terreno
-       if(transform.position.x < -xRange)
-        {
-            transform.position= new Vector3(-xRange, transform.position.y, transform.position.z);
-        }
-
-        if (transform.position.x > xRange)
-        {
-            transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
-        }*/
 }
-
