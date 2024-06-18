@@ -3303,7 +3303,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 205767351}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 439946987}
+        m_TargetAssemblyTypeName: DropBone, Assembly-CSharp
+        m_MethodName: ResetTheLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &205767351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5512,6 +5524,7 @@ MonoBehaviour:
   DropText: {fileID: 1932608857}
   BoneOnPlayer: {fileID: 1165128777}
   BoneOnPlatform: {fileID: 1037057431}
+  nextLevel: 
 --- !u!65 &439946988
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12626,7 +12639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1082092574
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12666,7 +12679,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pressione Q para soltar o osso
+  m_text: Pressione E para pegar o osso
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19683,7 +19696,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pressione E para pegar o osso
+  m_text: Pressione Q para soltar o osso
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
