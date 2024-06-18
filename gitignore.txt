@@ -1,0 +1,11 @@
+### Games ###
+*.gam
+*.nes
+*.rom
+*.sav
+
+# dependencies
+/Cat a Spell/Library/
+/Cat a Spell/Logs/
+/Cat a Spell/Packages/
+/Cat a Spell/Temp/
