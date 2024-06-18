@@ -10,6 +10,7 @@ public class NPCController : MonoBehaviour
     public GameObject BoneOnPlayer;
     public GameObject SwordOnVillage;
     public GameObject ThanksText;
+    public AudioSource audioSource;
 
 
     void Start()
@@ -30,6 +31,7 @@ public class NPCController : MonoBehaviour
             {
                 DropSwordText.SetActive(true);
                 OutOfSwordText.SetActive(false);
+                
                 if (Input.GetKey(KeyCode.Q))
                 {
                     SwordOnVillage.SetActive(true);
@@ -42,6 +44,7 @@ public class NPCController : MonoBehaviour
             else
             {
                 OutOfSwordText.SetActive(true);
+                audioSource.Play();
             }
         }
 

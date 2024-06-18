@@ -13,6 +13,7 @@ public class PlatformController : MonoBehaviour
     public GameObject DropBoneText;
     public GameObject BoneOnPlayer;
     public GameObject BoneOnPlatform;
+    public string nextLevel;
 
     // Start is called before the first frame update
     void Start()
@@ -65,5 +66,15 @@ public class PlatformController : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         print("Ta funcionando.");
+    }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(nextLevel);
+    }
+
+    public void FirstLevel()
+    {
+        SceneManager.LoadScene("nivel_1");
     }
 }
