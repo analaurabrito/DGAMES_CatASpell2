@@ -17,7 +17,6 @@ public class DropBone : MonoBehaviour
     void Start()
     {
         BoneOnPlatform.SetActive(false);
-        DropText.SetActive(false);
         LevelCompleteText.SetActive(false);
         NextLevelButton.SetActive(false);
         RestartGameButton.SetActive(false);
