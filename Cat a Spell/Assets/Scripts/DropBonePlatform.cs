@@ -13,6 +13,7 @@ public class DropBonePlatform : MonoBehaviour
     public GameObject DropBoneText;
     public GameObject BoneOnPlayer;
     public GameObject BoneOnPlatform;
+    public string nextLevel;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,8 +58,21 @@ public class DropBonePlatform : MonoBehaviour
 
     public void ResetTheLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         print("Ta funcionando.");
+    }
+
+    public void ResetTheGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        print("Ta funcionando.");
+    }
+
+    public void NextLevel(){
+        
+        if(nextLevel != ""){
+            SceneManager.LoadScene(nextLevel);
+        }
     }
     
 }
